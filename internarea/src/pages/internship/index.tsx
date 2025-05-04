@@ -218,7 +218,7 @@ const index = () => {
                   <h2 className="text-xl font-bold text-gray-900 mb-2">
                     {internship.title}
                   </h2>
-                  <p className="text-gray-600 mb-4">{internship.company}</p>
+                  <p className="text-gray-600 mb-4">Null Class</p>
 
                   <div className="grid grid-cols-3 gap-4 mb-6">
                     <div className="flex items-center space-x-2 text-gray-600">

@@ -135,7 +135,7 @@ const index = () => {
           <h1 className="text-3xl font-bold text-gray-900 mb-2">
             {internshipData.title}
           </h1>
-          <p className="text-lg text-gray-600 mb-4">{internshipData.company}</p>
+          <p className="text-lg text-gray-600 mb-4">Null Class</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="flex items-center space-x-2 text-gray-600">
               <MapPin className="h-5 w-5" />
@@ -160,7 +160,7 @@ const index = () => {
         {/* Company Section */}
         <div className="p-6 border-b">
           <h2 className="text-xl font-bold text-gray-900 mb-4">
-            About {internshipData.company}
+            About Company
           </h2>
           <div className="flex items-center space-x-2 mb-4">
             <a
@@ -171,14 +171,14 @@ const index = () => {
               <ExternalLink className="h-4 w-4" />
             </a>
           </div>
-          <p className="text-gray-600">{internshipData.aboutCompany}</p>
+          <p className="text-gray-600">Null Class</p>
         </div>
         {/* Internship Details Section */}
         <div className="p-6 border-b">
           <h2 className="text-xl font-bold text-gray-900 mb-4">
             About the Internship
           </h2>
-          <p className="text-gray-600 mb-6">{internshipData.aboutInternship}</p>
+          <p className="text-gray-600 mb-6">Develop apps using Flutter and Android</p>
 
           <h3 className="text-lg font-semibold text-gray-900 mb-2">
             Who can apply
@@ -186,12 +186,12 @@ const index = () => {
           <p className="text-gray-600 mb-6">{internshipData.whoCanApply}</p>
 
           <h3 className="text-lg font-semibold text-gray-900 mb-2">Perks</h3>
-          <p className="text-gray-600 mb-6">{internshipData.perks}</p>
+          <p className="text-gray-600 mb-6">Free cab service, food</p>
 
           <h3 className="text-lg font-semibold text-gray-900 mb-2">
             Additional Information
           </h3>
-          <p className="text-gray-600 mb-6">{internshipData.additionalInfo}</p>
+          <p className="text-gray-600 mb-6">Candidates must be graduate</p>
 
           <h3 className="text-lg font-semibold text-gray-900 mb-2">
             Number of Openings
@@ -216,7 +216,7 @@ const index = () => {
             <div className="p-6 border-b">
               <div className="flex justify-between items-center">
                 <h2 className="text-2xl font-bold text-gray-900">
-                  Apply to {internshipData.company}
+                  Apply to Null Class
                 </h2>
                 <button
                   onClick={() => setIsModalOpen(false)}

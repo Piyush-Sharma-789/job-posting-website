@@ -277,7 +277,7 @@ export default function SvgSlider() {
             <h3 className="text-lg font-semibold mb-2 text-gray-800">
               {internship.title}
             </h3>
-            <p className="text-gray-500 mb-4">{internship.company}</p>
+            <p className="text-gray-500 mb-4">Null Class</p>
             <div className="space-y-3 text-gray-600">
               <div className="flex items-center gap-2">
                 <MapPin size={18} />

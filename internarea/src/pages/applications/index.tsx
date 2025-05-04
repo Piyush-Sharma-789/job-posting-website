@@ -205,7 +205,7 @@ const index = () => {
                         </div>
                         <div className="ml-4">
                           <div className="text-sm font-medium text-gray-900">
-                            {application.company}
+                            Null Class
                           </div>
                           <div className="flex items-center text-sm text-gray-500">
                             <Tag className="h-4 w-4 mr-1" />
